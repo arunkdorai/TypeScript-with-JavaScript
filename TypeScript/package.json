@@ -1,0 +1,11 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec \"cmd /c cls && tsc && node ./app/dist/index.js\" ./app/src/index.ts -q"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
